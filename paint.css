@@ -1,13 +1,13 @@
 
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     body {
-      background: #f4f4f4;
+      background: #f5f5f5;
       color: #333;
       display: flex;
       justify-content: center;
@@ -30,7 +30,7 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
-      padding-right: 100px;
+      padding-right: 30px;
     }
 
     .card-header h2 {
@@ -60,40 +60,35 @@
       list-style: none;
     }
 
-    ul li {
-      background: #ecf0f1;
-      padding: 15px;
+    li {
+      background: #f0f0f0;
       margin: 10px 0;
-      border-radius: 8px;
-      font-size: 1.1rem;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 1rem;
       transition: background 0.3s;
     }
 
-    ul li:hover {
-      background: #d0dce3;
-    }
-
-    ul a {
+    a {
       text-decoration: none;
       color: inherit;
     }
 
+    li:hover {
+      background: #e0e0e0;
+    }
+
     @media (max-width: 600px) {
       .card {
-        padding: 20px;
+        padding: 20px 15px;
       }
 
       .card-header h2 {
         font-size: 1.3rem;
       }
 
-      .back-button {
-        font-size: 1rem;
-        padding: 6px 10px;
-      }
-
-      ul li {
-        font-size: 1rem;
+      li {
+        font-size: 0.95rem;
         padding: 12px;
       }
     }
