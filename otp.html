@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="otp.css" />
+</head>
+<body>
+         <a class="back-button" href="forget.html">
+      <img src="img\icon\logo1.png" alt="backbutton" />
+    </a>
+  <div class="container">
+    <h2>Enter OTP</h2>
+    <p>We have sent a 4-digit OTP to your phone</p>
+    <div class="otp-input">
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+      <input type="text" maxlength="1" />
+    </div>
+    <a href="forgot pass.html"><button onclick="verifyOTP()">Verify</button></a>
+    <p id="message"></p>
+  </div>
+
+  <script src="otp.js"></script>
+</body>
+</html>

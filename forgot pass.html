@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reset Password Request</title>
+  <link rel="stylesheet" href="forgot pass.css" />
+</head>
+<body>
+             <a class="back-button" href="otp.html">
+      <img src="img\icon\logo1.png" alt="backbutton" />
+    </a>
+
+  <div class="card">
+    <p>Hello,</p>
+    <p>We got a request to reset your password</p>
+    <button onclick="handleReset()">Forgot Password</button>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function handleReset() {
+      const message = document.getElementById("message");
+      message.textContent = "Reset link has been sent to your registered mobile/email.";
+      message.style.color = "green";
+    }
+  </script>
+</body>
+</html>
