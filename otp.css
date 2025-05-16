@@ -26,13 +26,13 @@ body {
       cursor: pointer;
     }
 .container {
-  background: white;
+  background: #ffffff;
   padding: 30px 25px;
   border-radius: 15px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 100%;
   max-width: 400px;
+  width: 100%;
 }
 
 h2 {
@@ -42,65 +42,62 @@ h2 {
 
 p {
   margin-bottom: 20px;
-  color: #666;
+  color: #555;
 }
 
 .otp-input {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   margin-bottom: 20px;
 }
 
-.otp-input input {
+.otp-box {
   width: 60px;
   height: 60px;
   text-align: center;
   font-size: 24px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
 }
 
-.otp-input input:focus {
-  border-color: #007bff;
-  outline: none;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+.otp-box:focus {
+  border-color: #7c3aed;
 }
 
 button {
-  background-color: #007bff;
+  padding: 12px;
+  width: 100%;
+  background-color: #a78bfa;
   color: white;
-  padding: 12px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px);
+  background-color: #7c3aed;
 }
 
+#error,
 #message {
-  margin-top: 15px;
-  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
 }
 
 @media (max-width: 480px) {
-  .otp-input {
-    gap: 6px;
-  }
-
-  .otp-input input {
+  .otp-box {
     width: 50px;
     height: 50px;
     font-size: 20px;
   }
 
-  button {
-    width: 100%;
+  .back-button img {
+    width: 35px;
+    height: 35px;
   }
 }

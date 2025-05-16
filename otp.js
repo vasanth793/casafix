@@ -1,30 +1,36 @@
-// Automatically move to next input
-const inputs = document.querySelectorAll('.otp-input input');
+document.addEventListener("DOMContentLoaded", () => {
+  const inputs = document.querySelectorAll(".otp-box");
+  const form = document.getElementById("otpForm");
+  const message = document.getElementById("message");
 
-inputs.forEach((input, index) => {
-  input.addEventListener('input', () => {
-    if (input.value && index < inputs.length - 1) {
-      inputs[index + 1].focus();
-    }
+  inputs.forEach((input, index) => {
+    input.addEventListener("input", () => {
+      // Move to next input if current has a value
+      if (input.value.length === 1 && index < inputs.length - 1) {
+        inputs[index + 1].focus();
+      }
+    });
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Backspace" && !input.value && index > 0) {
+        inputs[index - 1].focus();
+      }
+    });
   });
 
-  input.addEventListener('keydown', (e) => {
-    if (e.key === "Backspace" && input.value === '' && index > 0) {
-      inputs[index - 1].focus();
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const otp = Array.from(inputs).map((input) => input.value).join("");
+    if (otp.length !== 4 || !/^\d{4}$/.test(otp)) {
+      message.textContent = "Please enter a valid 4-digit OTP.";
+      return;
     }
+
+    message.textContent = "";
+
+    // You can replace this alert with API call or redirect
+    alert("OTP verified!");
+    window.location.href = "forgot pass.html";
   });
 });
-
-// OTP verification (dummy)
-function verifyOTP() {
-  const otp = Array.from(inputs).map(input => input.value).join('');
-  const message = document.getElementById('message');
-
-  if (otp.length === 4 && /^\d{4}$/.test(otp)) {
-    message.textContent = "OTP Verified Successfully!";
-    message.style.color = "green";
-  } else {
-    message.textContent = "Invalid OTP. Please try again.";
-    message.style.color = "red";
-  }
-}
