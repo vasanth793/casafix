@@ -173,7 +173,7 @@ form {
     outline: none;
     font-size: 14px;
     letter-spacing: 9%;
-    box-shadow: 2px 4px 4px#000000 ;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   
   .input-box i {
@@ -200,7 +200,7 @@ form {
     outline: none;
     font-size: 14px;
     letter-spacing: 9%;
-    box-shadow: 2px 4px 4px#000000 ;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   .password-container {
       position: relative;
