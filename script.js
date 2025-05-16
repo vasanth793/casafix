@@ -1,4 +1,4 @@
-// Wait for the DOM to be fully loaded
+se// Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Form submission handling
     const contactForm = document.querySelector('.contact-form');
