@@ -69,7 +69,7 @@ nav ul li a:hover {
     background-color: #8a56e2;
 }
 
-/* Hero Section */
+
 .hero {
     height: 700px;
     display: flex;
@@ -79,9 +79,7 @@ nav ul li a:hover {
     overflow: hidden;
     margin-top: -25px;
 
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    /* margin-top: -100px; */
+    
 }
 
 .hero-content {
@@ -111,16 +109,13 @@ nav ul li a:hover {
 }
 .hero-content img {
     width: 100%;
-    /* max-width: 1000px; */
     height: 579px;
-    /* border-radius: 10px; */
     margin: 30px auto 0;
     display: block;
     margin-top: -370px;
-    /* box-shadow: #bde7ff 5px 5px 1px; */
-}
+    }
 
-/* Services Section */
+
 .services {
     text-align: center;
     padding: 50px 20px;
@@ -213,7 +208,7 @@ nav ul li a:hover {
     margin-top: -60px;
 }
 
-/* Contact Section */
+
 .contact {
     background-color: #f5f7fa;
     padding: 50px 20px;
