@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   inputs.forEach((input, index) => {
     input.addEventListener("input", () => {
-      // Move to next input if current has a value
+    
       if (input.value.length === 1 && index < inputs.length - 1) {
         inputs[index + 1].focus();
       }
@@ -28,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     message.textContent = "";
-
-    // You can replace this alert with API call or redirect
     alert("OTP verified!");
     window.location.href = "forgot pass.html";
   });

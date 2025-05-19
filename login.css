@@ -27,7 +27,6 @@ body {
     }
 
 
-/* Sign In Container */
 .signin-container {
   background-color: #ffffff;
   padding: 35px 30px;
@@ -107,7 +106,7 @@ button:hover {
   text-decoration: none;
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .signin-container {
     padding: 25px 20px;

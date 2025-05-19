@@ -14,20 +14,19 @@ body {
   justify-content: center;
 }
 
-    .back-button {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 20px;
-      height: 20px;
-      color: white;
-      border: none;
-      padding:10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border: none;
+  padding:10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-/* Container styling */
 .container {
   background: #fff;
   padding: 30px 25px;
@@ -74,7 +73,7 @@ body {
   margin-top: 10px;
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .container {
     padding: 25px 20px;

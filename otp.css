@@ -13,18 +13,18 @@ body {
   justify-content: center;
 }
 
-    .back-button {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 20px;
-      height: 20px;
-      color: white;
-      border: none;
-      padding:10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border: none;
+  padding:10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .container {
   background: #ffffff;
   padding: 30px 25px;
