@@ -4,21 +4,20 @@
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
     }
+body {
+  background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    body {
-      background: linear-gradient(to right, #74ebd5, #acb6e5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-     .back-button {
+    .back-button {
       position: absolute;
       top: 20px;
       left: 20px;
-      width: 50px;
-      height: 50px;
+      width: 20px;
+      height: 20px;
       color: white;
       border: none;
       padding:10px 15px;

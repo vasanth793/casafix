@@ -45,7 +45,7 @@ header {
     padding: 15px 50px;
     background-color: #1e2a47;
     color: white;
-    border-radius: 0 0 10px 10px;
+
     flex-wrap: wrap;
 }
 
@@ -159,13 +159,14 @@ hr {
 
 .about ul {
   text-align: left;
-  max-width: 500px;
+
   margin: 0 auto;
   padding-left: 20px;
 }
 
 .about ul li {
   margin-bottom: 10px;
+  
 }
 
 @media (max-width: 768px) {

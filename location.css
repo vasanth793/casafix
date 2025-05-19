@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fff;
+    background: linear-gradient(135deg, #a1c4fd);
   padding: 20px;
   display: flex;
   justify-content: center;

@@ -6,11 +6,27 @@
       font-family: 'Segoe UI', sans-serif;
     }
 
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
+body {
+  background: linear-gradient(135deg, #a1c4fd);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      color: white;
+      border: none;
+      padding:10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
     }
+
 
     .container {
       max-width: 900px;
