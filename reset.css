@@ -6,11 +6,12 @@
 }
 
 body {
-  background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
-  height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .back-button {

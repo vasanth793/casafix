@@ -6,16 +6,14 @@
       font-family: Arial, sans-serif;
     }
 
-    body {
-  background: linear-gradient(135deg, #a1c4fd);
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-
+  body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
     .card {
       background: #fff;
       border-radius: 15px;
@@ -39,21 +37,19 @@
     }
 
   
-  .back-button {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #007bff;
-    padding: 5px 10px;
-    border-style: outset;
-    border-color: #333;
-    border-radius: 5px;
-    background-color: #e6f0ff;
-    transition: background 0.3s;
-  }
+ .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      color: white;
+      border: none;
+      padding:10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   
-  .back-button:hover {
-    background-color: #d0e6ff;
-  }
   
 
     ul {

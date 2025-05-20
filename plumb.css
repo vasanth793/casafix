@@ -1,73 +1,77 @@
-body {
+/* Reset and font */
+* {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #a1c4fd);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
   }
   
-  .card {
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    max-width: 400px;
-    width: 90%;
-    padding: 20px;
-  }
+ body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
   
-  .card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    padding-right: 100px;
-  }
+
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      padding: 25px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-right: 100px;
+    }
+
+    .card-header h2 {
+      font-size: 1.5rem;
+      color: #2c3e50;
+    }
+
   
-  .card-header h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin: 0;
-  }
-  
-  .back-button {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #007bff;
-    padding: 5px 10px;
-    border-style: outset;
-    border-color: #333;
-    border-radius: 5px;
-    background-color: #e6f0ff;
-    transition: background 0.3s;
-  }
-  
-  .back-button:hover {
-    background-color: #d0e6ff;
-  }
+ .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      color: white;
+      border: none;
+      padding:10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   
   .service-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
   }
   
   .service-list li {
-    margin: 15px 0;
-  }
-  
-  .service-list a {
-    text-decoration: none;
-    color: #444;
-    font-size: 1.1rem;
-    padding: 10px;
-    display: block;
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+    padding: 12px 18px;
     border-radius: 8px;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
   }
   
-  .service-list a:hover {
-    background: #f0f8ff;
+  .service-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .service-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
   }
   
