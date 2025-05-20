@@ -9,8 +9,9 @@ html{
 }
 
 body {
+    background-color: #ffffff;
     line-height: 1.6;
-    color: #333;
+    color: #faf1f1;
 }
 
 a {
@@ -43,8 +44,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: #1e2a47;
-    color: white;
+    background-color:#0067ff;
+    color:  #fffffe;
    
 }
 
@@ -64,7 +65,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #8a56e2;
+    background-color:#122d55;
 }
 
 
@@ -86,7 +87,7 @@ nav ul li a:hover {
 
 
 .hero-content h1 {
-    color: #8a56e2;
+    color:#0067FF;
     font-size: 2.5rem;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -94,7 +95,7 @@ nav ul li a:hover {
 
 .hero-content p {
     font-size: 1.1rem;
-    color: #555;
+    color: #002E72;
     max-width: 600px;
     margin-top: 20px;
     
@@ -115,6 +116,7 @@ nav ul li a:hover {
 
 
 .services {
+    
     text-align: center;
     padding: 50px 20px;
     margin-top: -80px;
@@ -123,6 +125,7 @@ nav ul li a:hover {
 .services h2 {
     font-size: 2rem;
     margin-bottom: 40px;
+    color: #0067FF;
 }
 
 .services-container {
@@ -133,7 +136,7 @@ nav ul li a:hover {
 }
 
 .service-card {
-    background-color: white;
+    background-color:#ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -153,15 +156,18 @@ nav ul li a:hover {
 
 .service-card h3 {
     font-size: 1.2rem;
-    color: #333;
+    color:#002E72;
 }
 
 .about {
     text-align: center;
     padding: 50px 20px;
+    color: #002E72;
+    
 }
 
 .about h2 {
+    color: #0067FF;
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -173,8 +179,8 @@ nav ul li a:hover {
 }
 
 .learn-more {
-    background-color: #8a56e2;
-    color: white;
+    background-color:#122d55;
+    color:#ffffff ;
     border: none;
     padding: 10px 25px;
     border-radius: 25px;
@@ -185,7 +191,7 @@ nav ul li a:hover {
 }
 
 .learn-more:hover {
-    background-color: #7445c5;
+    background-color:#1B263B;
 }
 
 .about-images {
@@ -207,7 +213,8 @@ nav ul li a:hover {
 
 
 .contact {
-    background-color: #f5f7fa;
+    background-color: #f2f5fa;
+    color: #0067FF;
     padding: 50px 20px;
     text-align: center;
     border-radius: 10px;
@@ -267,8 +274,8 @@ nav ul li a:hover {
 }
 
 .submit-btn {
-    background-color: #1e2a47;
-    color: white;
+    background-color: #122d55;
+    color:#ffffff;
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
@@ -278,15 +285,15 @@ nav ul li a:hover {
 }
 
 .submit-btn:hover {
-    background-color: #2c3e5d;
+    background-color: #1B263B;
 }
 
 
 footer {
-    background-color: #ddf8ff;
-    color: white;
+    background-color: #68a5ff;
+
+    color:#0067FF;
     padding: 50px 20px 20px;
-    border-radius: 30px 30px 0px 1px ;
     
 }
 
@@ -313,12 +320,12 @@ footer {
 .footer-column h3 {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #333;
+    color:#0067FF;
 }
 
 .footer-column ul li {
     margin-bottom: 10px;
-    color: #333;
+    color: #E0E1DD;
 }
 
 .footer-column ul li a:hover {
@@ -344,7 +351,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     font-size: 0.9rem;
-    color:#333;
+    color:#E0E1DD;
 }
 
 
