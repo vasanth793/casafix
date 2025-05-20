@@ -5,8 +5,12 @@
   font-family: Arial, sans-serif;
 }
 
-body {
-  background: linear-gradient(135deg, #a1c4fd);
+  body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 20px;
 }
 
@@ -29,11 +33,6 @@ body {
   padding:10px 15px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.back-button img {
-  width: 32px;
-  height: 32px;
 }
 
 .card {
