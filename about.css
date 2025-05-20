@@ -39,7 +39,6 @@ section {
     margin: 0 auto;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -47,7 +46,7 @@ header {
     padding: 15px 50px;
     background-color: #1e2a47;
     color: white;
-
+border-radius: 0px 0px 20px 20px;
     flex-wrap: wrap;
 }
 
@@ -137,7 +136,7 @@ hr {
   font-size: 1.5rem;
   margin-bottom: 20px;
   color: #444;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .about p {
@@ -149,27 +148,24 @@ hr {
 
 .about img {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   height: auto;
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .about h1 {
   font-size: 1.3rem;
   margin-top: 30px;
   color: #333;
-}
-
-.about ul {
-  text-align: left;
-
-  margin: 0 auto;
-  padding-left: 20px;
+  text-align: right;
+  padding-right: 100px;
 }
 
 .about ul li {
   margin-bottom: 10px;
+  text-align: left;
+  padding-left: 700px;
   
 }
 
