@@ -70,11 +70,6 @@ ul {
       transition: background 0.3s;
       font-family: 'Montserrat', sans-serif;
     }
-    
-
-    
-    
-
 ul li:hover {
   background: #d0dce3;
 }
