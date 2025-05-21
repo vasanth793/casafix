@@ -50,11 +50,21 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
 }
-
-.Gender {
-  color: ;
-}
-
+  .signup-container input[type="text"],
+  .signup-container .signup-form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      
+    }
+  .signup-container input[type="text"]:focus,
+  .signup-container input[type="tel"]:focus,
+  .signup-container select:focus {
+    border-color: #3a224e;
+    outline: none;
+  } 
 .input-box {
   width: 100%;
   padding: 12px;
