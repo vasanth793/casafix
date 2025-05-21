@@ -89,7 +89,7 @@ body {
 }
 
 .checkbox-label a {
-  color: #007bff;
+  color: #7c3aed;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ body {
 button[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #5a8bc0;
+  background-color: #122d55;
   border: none;
   color: white;
   font-size: 16px;
@@ -110,7 +110,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #778DA9;
 }
 
 .login-link {
@@ -120,7 +120,7 @@ button[type="submit"]:hover {
 }
 
 .login-link a {
-  color: #007bff;
+  color: #7c3aed;
   text-decoration: none;
 }
 
