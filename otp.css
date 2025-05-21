@@ -70,7 +70,7 @@ p {
 button {
   padding: 12px;
   width: 100%;
-  background-color: #a78bfa;
+  background-color: #122d55;
   color: white;
   border: none;
   border-radius: 10px;
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-  background-color: #7c3aed;
+  background-color: #778DA9;
 }
 
 #error,
