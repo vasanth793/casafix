@@ -6,7 +6,7 @@
 }
 
   body {
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,6 @@
 .container {
   max-width: 800px;
   margin-top: 10%;
-  /* margin-left: 28%; */
   width: 60%;
   padding: 10px;
 }
