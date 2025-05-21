@@ -67,6 +67,7 @@ nav ul li a {
     padding: 8px 15px;
     border-radius: 5px;
     transition: all 0.3s ease;
+    font-family:'Inter', sans-serif;
 }
 
 nav ul li a:hover {
@@ -96,6 +97,7 @@ nav ul li a:hover {
     font-size: 2.5rem;
     margin-bottom: 20px;
     padding-left: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 .hero-content p {
@@ -104,7 +106,7 @@ nav ul li a:hover {
     max-width: 600px;
     margin-top: 20px;
     
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding-left: 20px;
 }
@@ -131,6 +133,7 @@ nav ul li a:hover {
     font-size: 2rem;
     margin-bottom: 40px;
     color: #0D1B2A;
+    font-family: 'Inter', sans-serif;
 }
 
 .services-container {
@@ -160,8 +163,9 @@ nav ul li a:hover {
 }
 
 .service-card h3 {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color:#415A77;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about {
@@ -175,14 +179,15 @@ nav ul li a:hover {
     color: #0D1B2A;
     font-size: 2rem;
     margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 .about p {
     max-width: 800px;
     margin: 0 auto 30px;
     font-size: 1.1rem;
-}
-
+    font-family: 'Montserrat', sans-serif;
+}   
 .learn-more {
     background-color:#1B263B;
     color:#ffffff ;
@@ -193,6 +198,7 @@ nav ul li a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
 }
 
 .learn-more:hover {
@@ -207,6 +213,7 @@ nav ul li a:hover {
 }
 .about p{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-images img {
@@ -231,6 +238,7 @@ nav ul li a:hover {
     
     font-size: 2rem;
     margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
    
 }
 
@@ -240,6 +248,7 @@ nav ul li a:hover {
     font-size: 1.1rem;
     text-align: center;
 
+font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form {
@@ -263,6 +272,7 @@ nav ul li a:hover {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .form-group input,
@@ -272,6 +282,8 @@ nav ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .form-group textarea {
@@ -286,6 +298,7 @@ nav ul li a:hover {
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 1rem;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -327,11 +340,14 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color:#0D1B2A;
+    font-family: 'Inter', sans-serif;
 }
 
-.footer-column ul li {
+.footer-column ul li a {
     margin-bottom: 10px;
     color: #E0E1DD;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .footer-column ul li a:hover {
@@ -358,6 +374,7 @@ footer {
     padding-top: 20px;
     font-size: 0.9rem;
     color:#E0E1DD;
+    font-family: 'Inter', sans-serif;
 }
 
 
