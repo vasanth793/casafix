@@ -1,4 +1,5 @@
-/* Base Reset and Global Styles */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,16 +19,17 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  font-family: 'Inter', sans-serif;
 }
 
 ul {
   list-style: none;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
+
 
 h1,
 h2,
@@ -62,9 +64,14 @@ nav ul {
 }
 
 nav ul li a {
+
   padding: 8px 15px;
   border-radius: 5px;
   transition: all 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+     font-family: 'Inter', sans-serif;
 }
 
 nav ul li a:hover {
@@ -92,6 +99,7 @@ nav ul li a:hover {
   line-height: 1.8;
 }
 
+
 .div3 {
   text-align: center;
   margin-bottom: 30px;
@@ -105,10 +113,7 @@ nav ul li a:hover {
   margin: 20px 0;
 }
 
-hr {
-  margin: 40px 0;
-  border: 1px solid #ccc;
-}
+
 
 .grid2 {
   display: flex;
@@ -126,13 +131,17 @@ hr {
   margin-bottom: 20px;
   color: #444;
   padding-top: 40px;
+  font-family: 'Inter', sans-serif;
 }
 
-.about p {
+.grid2 .about p{
   font-size: 1rem;
   margin-bottom: 20px;
   line-height: 1.7;
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  
+
 }
 
 .about img {
@@ -149,12 +158,16 @@ hr {
   color: #333;
   text-align: right;
   padding-right: 100px;
+  font-family: 'Inter', sans-serif; 
 }
 
 .about ul li {
   margin-bottom: 10px;
   text-align: left;
   padding-left: 700px;
+  font-family: 'Montserrat', sans-serif;
+
+  
 
 }
 
@@ -204,13 +217,21 @@ footer {
   color: #0D1B2A;
 
 
-}
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:#0D1B2A;
+     font-family: 'Inter', sans-serif;
 
+}
 .footer-column ul li {
   margin-bottom: 10px;
 
-}
 
+.footer-column ul li a{
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
 .footer-column ul li a:hover {
   text-decoration: underline;
 }
