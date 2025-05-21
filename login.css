@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@ form input:focus {
 button {
   width: 100%;
   padding: 12px;
-  background-color: #a78bfa;
+  background-color: #122d55;
   color: white;
   border: none;
   border-radius: 10px;
@@ -93,7 +93,7 @@ button {
 }
 
 button:hover {
-  background-color: #7e57c2;
+  background-color: #778DA9;
 }
 
 .signup-link {

@@ -6,7 +6,7 @@
 }
 
 body {
- background: linear-gradient(to right, #74ebd5, #acb6e5);
+ background: linear-gradient(to right, #E0E1DD, #acb6e5);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .card button {
-  background: #b39ddb;
+  background: #122d55;
   color: white;
   padding: 10px 20px;
   font-size: 15px;
@@ -59,7 +59,7 @@ body {
 }
 
 .card button:hover {
-  background: #9575cd;
+  background: #778DA9;
   transform: translateY(-2px);
 }
 

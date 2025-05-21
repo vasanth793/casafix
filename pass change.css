@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ body {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color: #b39ddb;
+  background-color:  #122d55;
   color: #fff;
   padding: 10px 24px;
   border-radius: 10px;
@@ -64,7 +64,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #9575cd;
+  background-color:  #778DA9;
   transform: translateY(-2px);
 }
 

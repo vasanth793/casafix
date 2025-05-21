@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-color: #ffffff;
+
     line-height: 1.6;
     color: #faf1f1;
 }
@@ -44,7 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color:#0067ff;
+    background-color:#1B263B;
     color:  #fffffe;
    
 }
@@ -87,7 +87,7 @@ nav ul li a:hover {
 
 
 .hero-content h1 {
-    color:#0067FF;
+    color:#0D1B2A;
     font-size: 2.5rem;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 .hero-content p {
     font-size: 1.1rem;
-    color: #002E72;
+    color: #415A77;
     max-width: 600px;
     margin-top: 20px;
     
@@ -125,7 +125,7 @@ nav ul li a:hover {
 .services h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #0067FF;
+    color: #0D1B2A;
 }
 
 .services-container {
@@ -156,18 +156,18 @@ nav ul li a:hover {
 
 .service-card h3 {
     font-size: 1.2rem;
-    color:#002E72;
+    color:#415A77;
 }
 
 .about {
     text-align: center;
     padding: 50px 20px;
-    color: #002E72;
+    color: #415A77;
     
 }
 
 .about h2 {
-    color: #0067FF;
+    color: #0D1B2A;
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 .learn-more {
-    background-color:#122d55;
+    background-color:#1B263B;
     color:#ffffff ;
     border: none;
     padding: 10px 25px;
@@ -191,7 +191,7 @@ nav ul li a:hover {
 }
 
 .learn-more:hover {
-    background-color:#1B263B;
+    background-color:#778DA9;
 }
 
 .about-images {
@@ -214,7 +214,7 @@ nav ul li a:hover {
 
 .contact {
     background-color: #f2f5fa;
-    color: #0067FF;
+    color: #1B263B;
     padding: 50px 20px;
     text-align: center;
     border-radius: 10px;
@@ -230,6 +230,7 @@ nav ul li a:hover {
 }
 
 .contact p {
+    color: #415A77;
     margin-bottom: 30px;
     font-size: 1.1rem;
     text-align: center;
@@ -285,14 +286,14 @@ nav ul li a:hover {
 }
 
 .submit-btn:hover {
-    background-color: #1B263B;
+    background-color: #98aed6;
 }
 
 
 footer {
-    background-color: #68a5ff;
+    background-color: #415A77;
 
-    color:#0067FF;
+    color:#0D1B2A;
     padding: 50px 20px 20px;
     
 }
@@ -320,7 +321,7 @@ footer {
 .footer-column h3 {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color:#0067FF;
+    color:#0D1B2A;
 }
 
 .footer-column ul li {
