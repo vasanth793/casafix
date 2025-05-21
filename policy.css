@@ -69,6 +69,7 @@ body {
 h1, h2 {
   color: #0b2e59;
   margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
@@ -79,10 +80,13 @@ h1 {
 ul {
   margin-left: 20px;
   margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 p {
   margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 600px) {

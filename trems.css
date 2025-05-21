@@ -36,6 +36,7 @@
 header {
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .logo {
@@ -47,6 +48,7 @@ header {
 h1 {
   font-size: 1.8em;
   margin-bottom: 10px;
+   font-family: 'Inter', sans-serif;
 }
 
 section {
@@ -57,17 +59,26 @@ h2 {
   color: #0b2e59;
   margin-bottom: 10px;
   font-size: 1.2em;
+   font-family: 'Inter', sans-serif;
 }
 
 ul {
   padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
 
 footer {
   text-align: center;
   font-size: 0.9em;
   color: #666;
-  margin-top: 40px;
+  
+  margin-top: 70px;
 }
 
 
