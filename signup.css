@@ -90,7 +90,7 @@ body {
 }
 
 .checkbox-label a {
-  color: #7e57c2;
+  color: #7c3aed;
   text-decoration: none;
 }
 
@@ -122,7 +122,7 @@ button[type="submit"]:hover {
 
 .login-link a {
   color: #7e57c2;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .login-link a:hover {
