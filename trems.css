@@ -4,13 +4,13 @@
   box-sizing: border-box;
 
 }
-body {
-  background: linear-gradient(135deg, #a1c4fd);
-  height: 100vh;
+  body {
+  background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: 'Segoe UI', sans-serif;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .back-button {
@@ -30,7 +30,7 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 header {
