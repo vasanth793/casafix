@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    
+
     text-decoration: none;
     color: inherit;
 }
@@ -31,7 +31,9 @@ img {
     height: auto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin-bottom: 15px;
     font-family: "Inter", sans-serif;
 }
@@ -49,9 +51,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color:#1B263B;
-    color:  #fffffe;
-   
+    background-color: #1B263B;
+    color: #fffffe;
+
 }
 
 .logo img {
@@ -67,11 +69,11 @@ nav ul li a {
     padding: 8px 15px;
     border-radius: 5px;
     transition: all 0.3s ease;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 nav ul li a:hover {
-    background-color:#122d55;
+    background-color: #122d55;
 }
 
 
@@ -84,7 +86,7 @@ nav ul li a:hover {
     overflow: hidden;
     margin-top: -25px;
 
-    
+
 }
 
 .hero-content {
@@ -93,7 +95,7 @@ nav ul li a:hover {
 
 
 .hero-content h1 {
-    color:#0D1B2A;
+    color: #0D1B2A;
     font-size: 2.5rem;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -105,14 +107,16 @@ nav ul li a:hover {
     color: #415A77;
     max-width: 600px;
     margin-top: 20px;
-    
+
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding-left: 20px;
 }
-.hello-content{
+
+.hello-content {
     margin-top: -500px;
 }
+
 .hero-content img {
     width: 100%;
     height: 579px;
@@ -123,7 +127,7 @@ nav ul li a:hover {
 
 
 .services {
-    
+
     text-align: center;
     padding: 50px 20px;
     margin-top: -80px;
@@ -144,7 +148,7 @@ nav ul li a:hover {
 }
 
 .service-card {
-    background-color:#ffffff;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -163,6 +167,7 @@ nav ul li a:hover {
 }
 
 .service-card h3 {
+    /* font-size: 1.2rem; */
     color:#415A77;
     font-family: 'Montserrat', sans-serif;
 }
@@ -171,7 +176,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     color: #415A77;
-    
+
 }
 
 .about h2 {
@@ -186,10 +191,11 @@ nav ul li a:hover {
     margin: 0 auto 30px;
     font-size: 1.1rem;
     font-family: 'Montserrat', sans-serif;
-}   
+}
+
 .learn-more {
-    background-color:#1B263B;
-    color:#ffffff ;
+    background-color: #1B263B;
+    color: #ffffff;
     border: none;
     padding: 10px 25px;
     border-radius: 25px;
@@ -201,7 +207,7 @@ nav ul li a:hover {
 }
 
 .learn-more:hover {
-    background-color:#778DA9;
+    background-color: #778DA9;
 }
 
 .about-images {
@@ -210,7 +216,8 @@ nav ul li a:hover {
     gap: 30px;
     margin-top: 40px;
 }
-.about p{
+
+.about p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -234,11 +241,11 @@ nav ul li a:hover {
 }
 
 .contact h2 {
-    
+
     font-size: 2rem;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
-   
+
 }
 
 .contact p {
@@ -247,7 +254,7 @@ nav ul li a:hover {
     font-size: 1.1rem;
     text-align: center;
 
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form {
@@ -292,7 +299,7 @@ font-family: 'Montserrat', sans-serif;
 
 .submit-btn {
     background-color: #122d55;
-    color:#ffffff;
+    color: #ffffff;
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
@@ -310,9 +317,9 @@ font-family: 'Montserrat', sans-serif;
 footer {
     background-color: #415A77;
 
-    color:#0D1B2A;
+    color: #0D1B2A;
     padding: 50px 20px 20px;
-    
+
 }
 
 .footer-content {
@@ -338,7 +345,7 @@ footer {
 .footer-column h3 {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color:#0D1B2A;
+    color: #0D1B2A;
     font-family: 'Inter', sans-serif;
 }
 
@@ -372,7 +379,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     font-size: 0.9rem;
-    color:#E0E1DD;
+    color: #E0E1DD;
     font-family: 'Inter', sans-serif;
 }
 
@@ -470,6 +477,3 @@ footer {
         font-size: 1rem;
     }
 }
-
-
-

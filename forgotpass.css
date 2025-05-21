@@ -6,7 +6,7 @@
 }
 
 body {
- background: linear-gradient(to right, #E0E1DD, #acb6e5);
+  background: linear-gradient(to right, #E0E1DD, #acb6e5);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,10 +23,10 @@ body {
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-    }
+}
 
 
 .card {

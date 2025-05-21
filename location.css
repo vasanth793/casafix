@@ -6,15 +6,16 @@
 }
 
 body {
-    background: linear-gradient(135deg, #E0E1DD, #a1c4fd);
+  background: linear-gradient(135deg, #E0E1DD, #a1c4fd);
   padding: 20px;
   display: flex;
   justify-content: center;
 }
 
-.grid{
+.grid {
   display: grid;
 }
+
 .container {
   margin-top: 25%;
   place-self: center;
@@ -32,7 +33,7 @@ body {
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -113,4 +114,3 @@ body {
     width: 100%;
   }
 }
-

@@ -4,7 +4,8 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-  body {
+
+body {
   background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
   justify-content: center;
@@ -28,7 +29,7 @@
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -41,7 +42,7 @@
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 15px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .avatar {
