@@ -36,7 +36,9 @@ body {
 }
 
 
-
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 .card {
   display: flex;
   align-items: center;

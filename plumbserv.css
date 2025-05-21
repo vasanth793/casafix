@@ -34,7 +34,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .card {
   display: flex;
