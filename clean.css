@@ -69,10 +69,20 @@ ul {
       font-size: 1.1rem;
       transition: background 0.3s;
       font-family: 'Montserrat', sans-serif;
+<<<<<<< Updated upstream
     }
 ul li:hover {
   background: #d0dce3;
 }
+=======
+
+    }
+    
+
+    ul li:hover {
+      background: #d0dce3;
+    }
+>>>>>>> Stashed changes
 
     ul a {
       text-decoration: none;
