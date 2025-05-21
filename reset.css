@@ -22,7 +22,7 @@ body {
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .card button:hover {
-  background-color:  #778DA9;
+  background-color: #778DA9;
   transform: translateY(-2px);
 }
 

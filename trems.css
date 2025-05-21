@@ -4,7 +4,8 @@
   box-sizing: border-box;
 
 }
-  body {
+
+body {
   background: linear-gradient(to right, #E0E1DD, #acb6e5);
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -48,8 +49,8 @@ header {
 h1 {
   font-size: 1.8em;
   margin-bottom: 10px;
-   font-family: 'Inter', sans-serif;
-   color: #0b2e59;
+  font-family: 'Inter', sans-serif;
+  color: #0b2e59;
 }
 
 section {
@@ -60,14 +61,15 @@ h2 {
   color: #0b2e59;
   margin-bottom: 10px;
   font-size: 1.2em;
-   font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 ul {
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif;
 }
-p{
+
+p {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -78,7 +80,7 @@ footer {
   text-align: center;
   font-size: 0.9em;
   color: #666;
-  
+
   margin-top: 70px;
 }
 

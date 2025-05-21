@@ -1,4 +1,4 @@
-document.getElementById('forgotForm').addEventListener('submit', function(e) {
+document.getElementById('forgotForm').addEventListener('submit', function (e) {
   e.preventDefault();
 
   const mobile = document.getElementById('mobile').value.trim();

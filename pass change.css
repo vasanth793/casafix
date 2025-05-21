@@ -22,10 +22,10 @@ body {
   height: 20px;
   color: white;
   border: none;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-    }
+}
 
 
 .card {
@@ -54,7 +54,7 @@ body {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color:  #122d55;
+  background-color: #122d55;
   color: #fff;
   padding: 10px 24px;
   border-radius: 10px;
@@ -64,7 +64,7 @@ body {
 }
 
 .btn:hover {
-  background-color:  #778DA9;
+  background-color: #778DA9;
   transform: translateY(-2px);
 }
 
