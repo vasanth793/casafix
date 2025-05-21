@@ -53,6 +53,10 @@ body {
     }
   
 
+    ul {
+      list-style: none;
+    }
+  
 ul {
   list-style: none;
 }
@@ -65,8 +69,10 @@ ul {
       font-size: 1.1rem;
       transition: background 0.3s;
       font-family: 'Montserrat', sans-serif;
-
     }
+    
+
+    
     
 
 ul li:hover {
