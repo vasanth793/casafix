@@ -50,6 +50,38 @@ body {
   cursor: pointer;
 }
 
+  
+ .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      color: white;
+      border: none;
+      padding:10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+  
+h2{
+       font-family: 'Inter', sans-serif;
+    }
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      background: #ecf0f1;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+         font-family: 'Montserrat', sans-serif;
+    }
+
 
 
 ul {

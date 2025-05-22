@@ -53,6 +53,7 @@ body {
   font-weight: 700;
   color: #000;
   line-height: 1.3;
+  font-family: 'Inter', sans-serif;
 }
 
 .worker-icon {
@@ -96,6 +97,7 @@ body {
   background-color: #c7a9f9;
   color: white;
   font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
   border: none;
   padding: 12px 25px;
   border-radius: 30px;

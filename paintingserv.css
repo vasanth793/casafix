@@ -17,7 +17,6 @@ body {
 .container {
   max-width: 800px;
   margin-top: 10%;
-  /* margin-left: 28%; */
   width: 60%;
   padding: 10px;
 }
@@ -34,7 +33,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 .card {
   display: flex;
   align-items: center;

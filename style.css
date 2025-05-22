@@ -167,7 +167,6 @@ nav ul li a:hover {
 }
 
 .service-card h3 {
-    /* font-size: 1.2rem; */
     color: #415A77;
     font-family: 'Montserrat', sans-serif;
 }
@@ -384,10 +383,11 @@ footer {
 }
 
 
-@media (max-width: 992px) {
-    .hero {
-        flex-direction: column;
-        padding: 40px 20px;
+@media only screen and (max-width: 992px) {
+    .hello-content{
+        text-align: center;
+        padding: 30px;
+
     }
 
     .hero-content {
@@ -416,6 +416,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .hero-content {
+        width: 80%;
+        padding: 0;
+
+    }
+
     header {
         flex-direction: column;
         gap: 15px;
@@ -452,6 +459,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .hero-content,.hello-content{
+        width: 100%;
+    }
     .hero-content h1 {
         font-size: 1.8rem;
     }

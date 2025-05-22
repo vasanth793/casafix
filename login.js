@@ -9,10 +9,10 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     return;
   }
 
-  // Simulated login logic
+  
   if (email === "test@example.com" && password === "123456") {
     alert("Login successful!");
-    window.location.href = "dashboard.html"; // redirect to dashboard or homepage
+    window.location.href = "dashboard.html";
   } else {
     alert("Invalid email or password.");
   }
