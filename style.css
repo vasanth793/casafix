@@ -531,11 +531,10 @@ footer {
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
     .hello-content{
         text-align: center;
         padding: 30px;
-
     }
 
     .hero-content {
@@ -566,7 +565,7 @@ footer {
 @media (max-width: 768px) {
 
     .hero-content {
-        width: 80%;
+        width: 100%;
         padding: 0;
 
     }

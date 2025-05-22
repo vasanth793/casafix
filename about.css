@@ -165,22 +165,7 @@ nav ul li a:hover {
   padding-left: 700px;
   font-family: 'Montserrat', sans-serif;
 
-  
-
 }
-
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .about ul {
-    padding-left: 10px;
-  }
-}
-
 footer {
     background-color: #415A77;
 
@@ -232,4 +217,93 @@ footer {
   padding-top: 20px;
   font-size: 0.9rem;
 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        text-align: center;
+        padding: 30px;
+    }
+
+    .logo h1,
+    .logo p {
+        padding-left: 0;
+    }
+    .grid2{
+      width: 100%;
+    padding: 20px;
+    text-align: center;
+    }
+
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo, .grid2 .footer-content{
+        width: 100%;
+    }
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo p {
+        font-size: 1rem;
+    }
+
+
+
+    .footer-content {
+        padding: 20px;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
 }
