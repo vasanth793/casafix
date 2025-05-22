@@ -107,7 +107,6 @@ nav ul li a:hover {
     color: #415A77;
     max-width: 600px;
     margin-top: 20px;
-
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding-left: 20px;
@@ -230,29 +229,32 @@ nav ul li a:hover {
 
 
 .careers-section {
-  background-color: #415A77;
-  color: #E0E1DD;
-  padding: 60px 20px;
-  font-family: 'Segoe UI', sans-serif;
-}
+    display: flex;
 
+  padding: 50px;
+}
+/* 
 .container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-}
+} */
 
 h2 {
   font-size: 3rem;
   color: #0D1B2A;
   margin-bottom: 20px;
   padding-left: 12px;
+  text-align: center;
+font-family: 'Inter', sans-serif;
 }
 
 .intro {
   font-size: 1.5rem;
-  color: #fff;
-  margin-bottom: 25px;
+  color: #4d414e;
+  margin-bottom: 40px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .career-flex {
@@ -263,14 +265,15 @@ h2 {
   flex-wrap: wrap;
 }
 
-.career-left,
-.career-right {
-  flex: 1 1 45%;
+.career-left{
+    display: flex;
+    flex:auto
 }
 
 .job-list li,
 .benefits li {
-  color:#fff;
+color: #415A77;
+font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -305,33 +308,46 @@ h2 {
 
 .apply-box {
   margin-top: 30px;
-  background-color: #415A77;
+  background-color: #50749e;
   padding: 25px;
   border-radius: 8px;
   text-align: center;
+  
 }
 
 .apply-box a {
   color: #fff;
   font-weight: bold;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 .apply-btn {
   display: inline-block;
   margin-top: 15px;
   padding: 12px 25px;
-  background-color: #778DA9;
-  color: #0D1B2A;
+  background-color: #1B263B;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+
 }
+  /* background-color: #1B263B;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif; */
 
 .apply-btn:hover {
-  background-color: #E0E1DD;
-  color: #1B263B;
+  background-color: #778DA9;
 }
 
 
