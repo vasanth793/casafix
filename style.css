@@ -230,8 +230,8 @@ nav ul li a:hover {
 
 .careers-section {
     display: flex;
-
   padding: 50px;
+  width: 1400px;
 }
 /* 
 .container {
