@@ -229,6 +229,154 @@ nav ul li a:hover {
 }
 
 
+.careers-section {
+  background-color: #415A77;
+  color: #E0E1DD;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #0D1B2A;
+  text-shadow: 3px 3px  #778DA9 ;
+  margin-bottom: 20px;
+  padding-left: 12px;
+}
+
+.intro {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.career-flex {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.career-left,
+.career-right {
+  flex: 1 1 45%;
+}
+
+.job-list li,
+.benefits li {
+  color:#fff;
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 600px) {
+  .career-flex {
+    flex-direction: column;
+  }
+
+  .career-left,
+  .career-right {
+    flex: 1 1 100%;
+  }
+}
+
+.job-list,
+.benefits {
+  color: #1B263B;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+
+.why-us {
+  font-weight: 1000;
+  color: #1B263B;  
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.apply-box {
+  margin-top: 30px;
+  background-color: #415A77;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.apply-box a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.apply-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #778DA9;
+  color: #0D1B2A;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #E0E1DD;
+  color: #1B263B;
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro,
+  .why-us {
+    font-size: 1rem;
+  }
+
+  .job-list li,
+  .benefits li {
+    font-size: 0.95rem;
+  }
+
+  .apply-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .careers-section {
+    padding: 40px 15px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .apply-box {
+    padding: 20px;
+  }
+
+  .apply-btn {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+
 .contact {
     background-color: #f2f5fa;
     color: #1B263B;
@@ -240,7 +388,7 @@ nav ul li a:hover {
 }
 
 .contact h2 {
-
+    color: #415A77;
     font-size: 2rem;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
