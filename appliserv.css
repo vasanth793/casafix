@@ -105,4 +105,10 @@ p {
     font-size: 12px;
     padding: 8px 12px;
   }
+  .pre{
+    font: 12px monospace;
+    padding: 10px 10px;
+    text-align: center;
+
+  }
 }
